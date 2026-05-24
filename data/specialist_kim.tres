@@ -5,4 +5,10 @@
 [resource]
 script = ExtResource("1_newfs")
 display_name = "Kim"
+max_health = 250
+current_health = 250
+attack = 20
+defense = 10
+level = 2
+experience = 34
 metadata/_custom_type_script = "uid://d2ervyymjo2d2"

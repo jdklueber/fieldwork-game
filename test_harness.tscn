@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://xnujxg18m476"]
+
+[ext_resource type="Script" uid="uid://ct0b2l32hwa2i" path="res://test_harness.gd" id="1_aro62"]
+[ext_resource type="Script" uid="uid://d2ervyymjo2d2" path="res://resources/specialist.gd" id="2_5barb"]
+[ext_resource type="Resource" uid="uid://dh808gee0y0dg" path="res://data/specialist_reyes.tres" id="3_x46x6"]
+[ext_resource type="Resource" uid="uid://bxrva6iyn4i1t" path="res://data/specialist_kim.tres" id="4_lk4dm"]
+
+[node name="TestHarness" type="Node" unique_id=1472081170]
+script = ExtResource("1_aro62")
+specialists = Array[ExtResource("2_5barb")]([ExtResource("3_x46x6"), ExtResource("4_lk4dm")])
+
+[node name="Button" type="Button" parent="." unique_id=1724997534]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Select Reyes"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
