@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Specialist" format=3 uid="uid://bxrva6iyn4i1t"]
+
+[ext_resource type="Script" uid="uid://d2ervyymjo2d2" path="res://resources/specialist.gd" id="1_newfs"]
+
+[resource]
+script = ExtResource("1_newfs")
+display_name = "Kim"
+metadata/_custom_type_script = "uid://d2ervyymjo2d2"

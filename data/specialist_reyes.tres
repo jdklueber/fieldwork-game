@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Specialist" format=3 uid="uid://dh808gee0y0dg"]
+
+[ext_resource type="Script" uid="uid://d2ervyymjo2d2" path="res://resources/specialist.gd" id="1_cxt2i"]
+
+[resource]
+script = ExtResource("1_cxt2i")
+display_name = "Reyes"
+metadata/_custom_type_script = "uid://d2ervyymjo2d2"
