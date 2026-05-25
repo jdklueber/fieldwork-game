@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="Specialist" format=3 uid="uid://bxrva6iyn4i1t"]
 
+[ext_resource type="Script" uid="uid://dr6smc3ykvpjs" path="res://resources/item.gd" id="1_mwb5j"]
 [ext_resource type="Script" uid="uid://d2ervyymjo2d2" path="res://resources/specialist.gd" id="1_newfs"]
+[ext_resource type="Resource" uid="uid://coj42fxwtrs1f" path="res://data/gear_assault_rifle.tres" id="2_pvd0n"]
+[ext_resource type="Resource" uid="uid://ditr17jcne4gr" path="res://data/gear_kevlar.tres" id="3_wfywk"]
 
 [resource]
 script = ExtResource("1_newfs")
@@ -11,4 +14,5 @@ attack = 20
 defense = 10
 level = 2
 experience = 34
+inventory = Array[ExtResource("1_mwb5j")]([ExtResource("2_pvd0n"), ExtResource("3_wfywk")])
 metadata/_custom_type_script = "uid://d2ervyymjo2d2"

@@ -14,6 +14,11 @@ config/name="Fieldwork"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SignalBus="*uid://c5gpmh7jluhsx"
+CompanyData="*uid://c4lvso6jxcjjm"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

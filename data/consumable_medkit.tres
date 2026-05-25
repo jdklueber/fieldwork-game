@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Consumable" format=3 uid="uid://blctvqextvfe7"]
+
+[ext_resource type="Script" uid="uid://nm5cwvylgjcn" path="res://resources/consumable.gd" id="1_hvqf8"]
+
+[resource]
+script = ExtResource("1_hvqf8")
+display_name = "MedKit"
+description = "Meatball surgery in a box"
+health_bonus = 30
+metadata/_custom_type_script = "uid://nm5cwvylgjcn"

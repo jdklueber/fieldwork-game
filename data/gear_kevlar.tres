@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Gear" format=3 uid="uid://ditr17jcne4gr"]
+
+[ext_resource type="Script" uid="uid://d1yeean3m6i8j" path="res://resources/gear.gd" id="1_84sdb"]
+
+[resource]
+script = ExtResource("1_84sdb")
+slot = 1
+display_name = "Kevlar"
+description = "Hopefully Protective..."
+defense_bonus = 3
+metadata/_custom_type_script = "uid://d1yeean3m6i8j"

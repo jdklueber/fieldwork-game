@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Gear" format=3 uid="uid://coj42fxwtrs1f"]
+
+[ext_resource type="Script" uid="uid://d1yeean3m6i8j" path="res://resources/gear.gd" id="1_85hth"]
+
+[resource]
+script = ExtResource("1_85hth")
+display_name = "Assault Rifle"
+description = "More Dakka"
+attack_bonus = 5
+metadata/_custom_type_script = "uid://d1yeean3m6i8j"

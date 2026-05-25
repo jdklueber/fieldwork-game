@@ -1,8 +1,12 @@
 [gd_resource type="Resource" script_class="Specialist" format=3 uid="uid://dh808gee0y0dg"]
 
+[ext_resource type="Script" uid="uid://dr6smc3ykvpjs" path="res://resources/item.gd" id="1_2baw0"]
 [ext_resource type="Script" uid="uid://d2ervyymjo2d2" path="res://resources/specialist.gd" id="1_cxt2i"]
+[ext_resource type="Resource" uid="uid://coj42fxwtrs1f" path="res://data/gear_assault_rifle.tres" id="2_la0im"]
+[ext_resource type="Resource" uid="uid://ditr17jcne4gr" path="res://data/gear_kevlar.tres" id="3_qbtnr"]
 
 [resource]
 script = ExtResource("1_cxt2i")
 display_name = "Reyes"
+inventory = Array[ExtResource("1_2baw0")]([ExtResource("2_la0im"), ExtResource("3_qbtnr")])
 metadata/_custom_type_script = "uid://d2ervyymjo2d2"
